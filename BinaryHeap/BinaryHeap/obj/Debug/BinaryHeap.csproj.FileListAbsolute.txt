@@ -1,0 +1,6 @@
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\bin\Debug\BinaryHeap.exe.config
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\bin\Debug\BinaryHeap.exe
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\bin\Debug\BinaryHeap.pdb
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\obj\Debug\BinaryHeap.csprojResolveAssemblyReference.cache
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\obj\Debug\BinaryHeap.exe
+C:\Users\сергей\Downloads\Generic-master\Generic-master\BinaryHeap\BinaryHeap\obj\Debug\BinaryHeap.pdb
