@@ -2,11 +2,11 @@
 
 namespace BinaryHeap
 {
-    class MaxBinaryHeap<T> : BinaryHeap<T>
+    class MinBinaryHeap<T> : BinaryHeap<T>
         where T : IComparable
-    {   
+    {
 
-        public MaxBinaryHeap() : base() { }
+        public MinBinaryHeap() : base() { }
 
         public void Insert(T value)
         {
@@ -15,7 +15,7 @@ namespace BinaryHeap
             int i = HeapSize - 1;
             int parent = (i - 1) / 2;
 
-            while (i > 0 && heap[parent].CompareTo(heap[i]) > 0)
+            while (i > 0 && heap[parent].CompareTo(heap[i]) < 0)
             {
                 T temp = heap[i];
                 heap[i] = heap[parent];
@@ -26,10 +26,10 @@ namespace BinaryHeap
         }
 
         public T Extract()
-        {      
-                var value = heap[0];
-                heap[0] = heap[HeapSize - 1];
-                heap.RemoveAt(HeapSize - 1);
+        {
+            var value = heap[0];
+            heap[0] = heap[HeapSize - 1];
+            heap.RemoveAt(HeapSize - 1);
 
             if (HeapSize > 0)
             {
